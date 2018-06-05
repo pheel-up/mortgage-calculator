@@ -78,10 +78,6 @@ class Mortgage {
   }
 }
 
-var displayAmort = function () {
-  
-}
-
 document.getElementById("calcBtn").addEventListener("click", () => {
     // CLEARS contents of div
     while(document.querySelector("#amortization").firstChild){
